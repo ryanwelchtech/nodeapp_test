@@ -29,5 +29,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ steps.meta.outputs.tags }}/test
+          tags: ryanwelchtech #${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
